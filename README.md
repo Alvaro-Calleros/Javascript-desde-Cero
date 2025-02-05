@@ -10,6 +10,7 @@ Aquí encontrarás:
 - Funciones y eventos
 - Programación asincrónica
 - Ejercicios prácticos
+- Ir agregando descripcion conforme al curso
 
 ## 🚀 Requisitos
 Para ejecutar los ejemplos y ejercicios de este repositorio, asegúrate de tener instalado:
@@ -27,7 +28,7 @@ Para ejecutar los ejemplos y ejercicios de este repositorio, asegúrate de tener
 ## 🔥 Cómo Usar Este Repositorio
 1. Clona el repositorio:
    ```sh
-   git clone 
+   git clone https://github.com/Alvaro-Calleros/Javascript-desde-Cero.git
    ```
 2. Abre el proyecto en tu editor de código favorito.
 3. Ejecuta los scripts en la consola del navegador o con Node.js.
