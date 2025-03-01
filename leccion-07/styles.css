@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #18171F; 
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .password-generator {
+    background-color: #24232C; 
+    padding: 2rem;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .password-generator h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .password-display {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #18171F;
+    border-radius: 8px;
+    padding: 0.5rem;
+  }
+  
+  .password-display input {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    width: calc(100% - 40px);
+  }
+  
+  .password-display input:focus {
+    outline: none;
+  }
+  
+  .password-display button {
+    background-color: transparent;
+    border: none;
+    color: #098d19; 
+    cursor: pointer;
+  }
+  
+  .length-setting {
+    margin-top: 1.5rem;
+  }
+  
+  .length-setting label {
+    display: block;
+    font-size: 0.9rem;
+  }
+  
+  #lengthSlider {
+    width: calc(100% - 20px);
+  }
+  
+  #lengthValue {
+    float: right;
+  }
+  
+  .options label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .options label input[type="checkbox"] {
+    margin-right: .5rem; 
+  }
+  
+
+  .strength-bar {
+    margin-top: 1rem;
+    padding: .5rem;
+    text-align: center;
+  }
+  
+  .strength-bar.weak {
+    background-color: #FF4D4D; 
+  }
+  
+  .strength-bar.medium {
+    background-color: #b99e01; 
+  }
+  
+  .strength-bar.strong {
+    background-color: #098d19;
+  }
+  
